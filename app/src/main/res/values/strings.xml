@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">AngelHack</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="nav_Alert">Alert</string>
+    <string name="nav_shelter">Shelter</string>
+    <string name="nav_friends">Friends</string>
+    <string name="nav_Profile">Profile</string>
+    <string name="title_activity_convo">ConvoActivity</string>
+    <string name="username">apikey</string>
+    <string name="password">q9KrcFf08g7wbvHLu36x4SG6BFOBckG5qE0vehTu7Rc0</string>
+    <string name="workspace">d3ca2fbe-c537-4e87-bad9-1de832bbdac4</string>
+</resources>

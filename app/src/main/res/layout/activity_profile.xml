@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.quahjingwen.angelhack.MainActivity">
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="match_parent"
+        android:layout_height="146dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:src="@drawable/profile_pic" />
+
+    <LinearLayout
+        android:layout_width="341dp"
+        android:layout_height="280dp"
+        android:layout_below="@+id/imageView2"
+        android:layout_centerHorizontal="true"
+        android:orientation="vertical">
+
+
+        <TextView
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="3dp"
+            android:padding="8dp"
+            android:text="Name: Ruby" />
+
+        <TextView
+            android:id="@+id/profileDisability"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="8dp"
+            android:text="Assistance Not Required" />
+
+        <TextView
+            android:id="@+id/profileUid"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="3dp"
+            android:padding="8dp"
+            android:text="Unique ID" />
+
+        <TextView
+            android:id="@+id/myTextField"
+            android:layout_width="match_parent"
+            android:layout_height="32dp"
+            android:layout_margin="3dp"
+            android:drawableLeft="@android:drawable/stat_sys_vp_phone_call_on_hold"
+            android:drawablePadding="10dp"
+            android:padding="8dp"
+            android:paddingRight="10dp"
+            android:text="93458271" />
+
+        <TextView
+            android:id="@+id/profileAddress"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="3dp"
+            android:drawableLeft="@drawable/home"
+            android:drawablePadding="10dp"
+            android:padding="8dp"
+            android:text="26 Chapel Rd Singapore 429532" />
+
+
+        <TextView
+            android:id="@+id/profileEmail"
+            android:layout_width="match_parent"
+            android:layout_height="34dp"
+            android:layout_margin="3dp"
+            android:drawableLeft="@android:drawable/sym_action_email"
+            android:drawablePadding="10dp"
+            android:padding="8dp"
+            android:text="Email" />
+
+
+        <Button
+            android:id="@+id/button_logout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="Logout" />
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="38dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center"
+        android:layout_marginBottom="40dp"
+        android:background="#33ff4b"
+        android:padding="10dp"
+        android:text="Let my friends and family know I'm safe" />
+
+    <Button
+        android:id="@+id/button_profile"
+        android:layout_width="99dp"
+        android:layout_height="33dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:background="#e3e2ea"
+        android:padding="3dp"
+        android:text="PROFILE" />
+
+    <Button
+        android:id="@+id/button_friends"
+        android:layout_width="99dp"
+        android:layout_height="33dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="95dp"
+        android:background="#e3e2ea"
+        android:padding="3dp"
+        android:text="@string/nav_friends" />
+
+    <Button
+        android:id="@+id/button_shelter"
+        android:layout_width="99dp"
+        android:layout_height="33dp"
+        android:layout_alignParentBottom="true"
+        android:layout_toEndOf="@+id/button_alert"
+        android:background="#e3e2ea"
+        android:padding="3dp"
+        android:text="SHELTER" />
+
+    <Button
+        android:id="@+id/button_alert"
+        android:layout_width="99dp"
+        android:layout_height="33dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:background="#e3e2ea"
+        android:padding="3dp"
+        android:text="ALERT" />
+
+
+</RelativeLayout>

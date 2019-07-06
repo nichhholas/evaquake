@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "134485961612",
+    "firebase_url": "https://angelhack-baeba.firebaseio.com",
+    "project_id": "angelhack-baeba",
+    "storage_bucket": "angelhack-baeba.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:134485961612:android:d9555e4b8bc2db62",
+        "android_client_info": {
+          "package_name": "com.example.quahjingwen.angelhack"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "134485961612-789e86lbfl4e6u8ki776lpnrfi6kur2g.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC_z1vWyk8HPx1rHIyonyz8_NQscsbDtes"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "134485961612-789e86lbfl4e6u8ki776lpnrfi6kur2g.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
