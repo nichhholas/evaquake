@@ -1811,7 +1811,7 @@
           {
             "values": [
               {
-                "text": "[ EARTHQUAKE ALERT ] Earthquake located 40 km N of your current location. Time 15:01 GMT +8. Magnitude 7.2"
+                "text": "[ EARTHQUAKE ALERT ] Earthquake located 40 km N of your current location. Time 15:01 GMT +8. Magnitude 7.2. You can ask me for the nearest evacuation shelters as well as the status of your registered friends and family."
               }
             ],
             "response_type": "text",
